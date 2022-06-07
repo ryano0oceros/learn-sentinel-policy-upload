@@ -2,6 +2,6 @@ policy "restrict-aws-instances-type-and-tag" {
   enforcement_level = "hard-mandatory"
 }
 
-policy "restrict-aws-instances-type-and-tag" {
+policy "require-private-acl-and-kms-for-s3-buckets" {
   enforcement_level = "soft-mandatory"
 }
